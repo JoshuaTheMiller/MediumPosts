@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:CreatingAStyle">
+    <Style TargetType="{x:Type Button}">
+        <Setter Property="Template" Value="{DynamicResource DefaultButtonTemplate}"/>
+    </Style>
+    <ControlTemplate x:Key="DefaultButtonTemplate" TargetType="{x:Type Button}">
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Width="75">
+            <ContentPresenter/>
+        </Border>
+    </ControlTemplate>
+
+</ResourceDictionary>
