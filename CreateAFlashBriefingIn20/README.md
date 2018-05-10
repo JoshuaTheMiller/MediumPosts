@@ -1,0 +1,1 @@
+https://medium.com/@aflyingcaveman/create-your-own-custom-flash-briefing-for-alexa-in-under-20-minutes-b5da022d4296
