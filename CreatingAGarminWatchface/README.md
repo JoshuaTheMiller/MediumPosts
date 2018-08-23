@@ -1,0 +1,1 @@
+https://medium.com/@aflyingcaveman/making-a-watchface-for-garmin-devices-8c3ce28cae08
