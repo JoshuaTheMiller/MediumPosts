@@ -16,7 +16,7 @@ sudo docker run -it --rm -p 7777:7777 --mount source=terraria,target=/world --na
 sudo docker run -dit --rm -p 7777:7777 --mount source=terraria,target=/world --name="terraria" ryshe/terraria:latest -world /world/IngloriousNightmare.wld
 
 // Inspect existing volume
-sudo docker run -it --rm --mount source=terraria,target=/world --name="volumeinspect" ubuntu 
+sudo docker run -it --rm --mount source=terraria,target=/world --name="volumeinspect" trfc/vimtainer 
 
 
 g.terraria.trfc.dev
@@ -35,3 +35,7 @@ g.terraria.trfc.dev
  
  * Create new user for running
  * Install `jq` for finding/replacing json value (for password change), install moreutils to leverage `sponge` so that the config file can be replaced after using `jq`
+ 
+```bash 
+pass="what" && configPath="/world/config.json" && jq --arg p "$pass" '.ServerPassword=$p' $configPath | sponge $configPath
+```
