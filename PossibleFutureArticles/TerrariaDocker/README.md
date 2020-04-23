@@ -31,3 +31,7 @@ g.terraria.trfc.dev
 * Other hosts
   * https://nodecraft.com/pricing?currency=USD&games=terraria
   
+ ## Linux Things
+ 
+ * Create new user for running
+ * Install `jq` for finding/replacing json value (for password change), install moreutils to leverage `sponge` so that the config file can be replaced after using `jq`
