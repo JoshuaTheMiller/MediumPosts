@@ -41,3 +41,17 @@ g.terraria.trfc.dev
 ```bash 
 pass="what" && configPath="/world/config.json" && jq --arg p "$pass" '.ServerPassword=$p' $configPath | sponge $configPath
 ```
+
+# Hosting Options to check out
+
+* https://azure.microsoft.com/en-gb/pricing/details/container-instances/
+* https://www.bing.com/search?q=EC2+Micro+instances&FORM=ANCMS9&PC=U531
+* https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=tier%2312monthsfree&awsm.page-all-free-tier=1
+* https://aws.amazon.com/fargate/pricing/
+* https://www.kamatera.com/express/compute/apps.php?tcampaign=35166_366160&bta=35166&nci=5427#app=Docker
+* https://docs.jelastic.com/pricing-model
+  * https://jelastic.com/pay-as-you-use-cloud-pricing/
+* https://sloppy.io/en/pricing/
+  
+EC2 micro may be good for new folks. It is free for the first 12 years, and the offering is good enough for a small server
+I'm very curious about Jelastic. More digging around their pricing is needed, but it seems very promising. Potentially the most promising.
