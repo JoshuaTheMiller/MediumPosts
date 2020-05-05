@@ -1,0 +1,3 @@
+Long story short: images in repo, good idea, or pretty much always bad?
+
+TLDR: There are better solutions out there, may as well use them. Simple S3 solution w/frontend? Free image hosting? Have to puruse the licensing for those free options...
