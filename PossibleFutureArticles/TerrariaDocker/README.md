@@ -53,5 +53,5 @@ pass="what" && configPath="/world/config.json" && jq --arg p "$pass" '.ServerPas
   * https://jelastic.com/pay-as-you-use-cloud-pricing/
 * https://sloppy.io/en/pricing/
   
-EC2 micro may be good for new folks. It is free for the first 12 years, and the offering is good enough for a small server
+EC2 micro may be good for new folks. It is free for the first 12 ~years~ loool type *months*, and the offering is good enough for a small server
 I'm very curious about Jelastic. More digging around their pricing is needed, but it seems very promising. Potentially the most promising.
