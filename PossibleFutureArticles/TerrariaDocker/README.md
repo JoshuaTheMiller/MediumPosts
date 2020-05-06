@@ -55,3 +55,18 @@ pass="what" && configPath="/world/config.json" && jq --arg p "$pass" '.ServerPas
   
 EC2 micro may be good for new folks. It is free for the first 12 ~years~ loool type *months*, and the offering is good enough for a small server
 I'm very curious about Jelastic. More digging around their pricing is needed, but it seems very promising. Potentially the most promising.
+
+
+# Organization
+
+After much thought and review of my reading trends, it seems best to split the article into 2 parts:
+
+* Part 1: an intro
+  * What are the other parts? (with links)
+  * Why am I writing this?
+  * Who is this article for?  
+  * Joke
+  * Closing
+* Part 2: Deploying locally and to RaspberryPI, and why I made my own image
+* Part 3: Deploying to Amazon Lightsail, and considerations around other hosting platforms
+* Part 4: Bonus lessons
