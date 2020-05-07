@@ -42,6 +42,12 @@ g.terraria.trfc.dev
 pass="what" && configPath="/world/config.json" && jq --arg p "$pass" '.ServerPassword=$p' $configPath | sponge $configPath
 ```
 
+## Archiving and Copying
+
+* First zip directory (if you want to copy the whole thing): `sudo docker exec volumeinspect tar -czvf world.tar.gz /world`
+* Then copy it locally: `sudo docker cp volumeinspect:world.tar.gz .`
+* Upload via some tool??
+
 # Hosting Options to check out
 
 * https://azure.microsoft.com/en-gb/pricing/details/container-instances/
