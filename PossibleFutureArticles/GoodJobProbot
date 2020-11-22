@@ -1,0 +1,24 @@
+# Good Job Probot!
+
+Another Simple Hello World type project, Probot edition.
+
+## Who is this for?
+
+## What is a Probot?
+
+## This will demonstrate
+
+* Getting up and running with a Probot (local development)
+* Configuring hooks, and what to choose
+* Configuring permissions
+* Interacting with the API on events
+* Refactoring for Typescript
+* Better Deployment Practices
+  * `Good Job Fake/Test/NonProd` registration and `Good Job` registration  
+  * Stop using Smee.io, use a real deployment
+  * Alternative deployment strategies: serverless
+  
+  
+## Notes 
+
+* Maybe make this a two part article if it is getting too long
